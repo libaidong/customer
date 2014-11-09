@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<io_config version="1">
+  <io device_id="22345" io_type="INPUT">
+    <type>Push button</type>
+    <name>Push button Level 1</name>
+    <poll_interval>30</poll_interval>
+    <logic_mode>simple</logic_mode>
+    <time_interval>60</time_interval>
+    <communication media="RS485" protocol="MB_RTU" serial_tag="Serial port 3">
+      <address>12</address>
+      <register_type>input status</register_type>
+      <register_address>1000</register_address>
+    </communication>
+    <bms_register_address>4001</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22346" io_type="INPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <poll_interval>30</poll_interval>
+    <logic_mode>momentary</logic_mode>
+    <time_interval>60</time_interval>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 3">
+      <address>12</address>
+      <channel>1</channel>
+    </communication>
+    <bms_register_address>4002</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22347" io_type="INPUT">
+    <type>Push button</type>
+    <name>Push button Level 3</name>
+    <poll_interval>30</poll_interval>
+    <logic_mode>simple</logic_mode>
+    <time_interval>60</time_interval>
+    <communication media="ETH" protocol="MB_TCP_RTU">
+      <address>12</address>
+      <register_type>input status</register_type>
+      <register_address>1000</register_address>
+      <ip_address>192.168.1.34</ip_address>
+      <port>4330</port>
+    </communication>
+    <bms_register_address>4003</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22348" io_type="OUTPUT">
+    <type>Lighting relay output</type>
+    <name>Lobby 1 lighting</name>
+    <relay_operation>closed</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="MB_RTU" serial_tag="Serial port 3">
+      <address>13</address>
+      <register_type>coil status</register_type>
+      <register_address>1000</register_address>
+    </communication>
+    <bms_register_address>4004</bms_register_address>
+    <methods>getState</methods>
+    <methods>setState</methods>
+  </io>
+  <io device_id="22348" io_type="OUTPUT">
+    <type>Lighting relay output</type>
+    <name>Lobby 2 lighting</name>
+    <relay_operation>closed</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 3">
+      <address>13</address>
+      <channel>2</channel>
+    </communication>
+    <bms_register_address>4005</bms_register_address>
+    <methods>getState</methods>
+    <methods>setState</methods>
+  </io>
+  <io device_id="22349" io_type="OUTPUT">
+    <type>Modbus output</type>
+    <name>Lobby 3 lighting</name>
+    <relay_operation>closed</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="ETH" protocol="MB_TCP_RTU">
+      <address>14</address>
+      <register_type>coil status</register_type>
+      <register_address>1000</register_address>
+      <ip_address>192.168.1.36</ip_address>
+      <port>4330</port>
+    </communication>
+    <bms_register_address>4006</bms_register_address>
+    <methods>getState</methods>
+    <methods>setState</methods>
+  </io>
+  <io device_id="22350" io_type="INPUT">
+    <type>Push button</type>
+    <name>Push button Level 3</name>
+    <poll_interval>30</poll_interval>
+    <logic_mode>simple</logic_mode>
+    <time_interval>60</time_interval>
+    <communication media="RF" protocol="SMARTMESH" serial_tag="Serial port 4">
+      <rf_device_id>7777</rf_device_id>
+      <channel>1</channel>
+    </communication>
+    <bms_register_address>4007</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22351" io_type="OUTPUT">
+    <type>Lighting relay output</type>
+    <name>Lobby 3 lighting</name>
+    <relay_operation>closed</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RF" protocol="SMARTMESH" serial_tag="Serial port 4">
+      <rf_device_id>7777</rf_device_id>
+      <channel>2</channel>
+    </communication>
+    <bms_register_address>4008</bms_register_address>
+    <methods>getState</methods>
+    <methods>setState</methods>
+  </io>
+</io_config>

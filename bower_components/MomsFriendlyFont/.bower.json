@@ -1,0 +1,23 @@
+{
+  "name": "MomsFriendlyFont",
+  "version": "1.2.0",
+  "authors": [
+    "Matt Carter <m@ttcarter.com>"
+  ],
+  "description": "A collection of miscellaneous SVG icons for various projects",
+  "keywords": [
+    "font"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MomsFriendlyDevCo/MomsFriendlyFont",
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.0",
+    "commit": "77480998a6a7afcc4b1d400d025e26fd726cb3b5"
+  },
+  "_source": "git://github.com/MomsFriendlyDevCo/MomsFriendlyFont.git",
+  "_target": "1.2.0",
+  "_originalSource": "MomsFriendlyFont",
+  "_direct": true
+}

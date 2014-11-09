@@ -1,0 +1,21 @@
+font_name: moms-friendly-font
+css_selector: .mff-{{glyph}}
+preprocessor_path: ""
+autowidth: false
+no_hash: true
+force: false
+debug: false
+quiet: false
+
+input:
+  vectors: svg
+
+output:
+  fonts: dist
+  css: dist
+  preview: .
+
+templates:
+ - css
+ - scss
+ - preview

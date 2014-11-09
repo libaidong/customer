@@ -1,0 +1,117 @@
+/* Style for generated reports */
+
+html,body { height:100%; }
+
+body {
+	margin: 80px 150px 80px 150px;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	color: #333;
+}
+
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+div.logo {
+	width: 100%;
+	clear: both;
+	height: 80px;
+	margin-bottom: 50px;
+}
+
+img.logo {
+	height: 100%;
+}
+
+div.report-sidebar {
+	float: left;
+	color: #E4AE83;
+	background-color: #ef7c21;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	margin-left: -150px;
+	margin-right: 100px;
+	height: 100%;
+	min-height: 785px;
+	width: 150px;
+}
+
+	div.report-sidebar div.sidebar-text {
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		font-size: 80px;
+		font-weight: bold;
+		vertical-align: middle;
+		text-align: center;
+		margin-top: 625px;
+	}
+
+
+div.report-summary {
+	height: 80px;
+}
+
+table.report-billing, table.report-data {
+	clear: right;
+	border: 2px solid #ddd;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.report-billing td, table.report-data td {
+	border: 2px solid #ddd;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	padding: 2px 5px 2px 5px;
+}
+
+table.report-billing td { width: 130px; }
+
+table td.report-billing-header {
+	background-color: #ef7c21;
+	text-align: left;
+	font-weight: bold;
+}
+
+/* Table: Report Data {{{ */
+div.report-data { 
+	margin-top: 40px;
+	margin-left: 100px; 
+}
+
+table.report-data { width: 100%; }
+
+table.report-data th {
+	background-color: #ef7c21;
+	border: 2px solid #ddd;
+	text-align: left;
+	padding: 2px 5px 2px 5px;
+}
+
+table.report-data td { 
+	font-weight: bold;
+	font-style: italic;
+	padding: 5px;
+}
+
+span.th-subheading {
+	font-size: 80%;
+}
+
+tr.report-data-totals {
+	background-color: #eee;
+}
+
+tr.report-data-totals td { font-style: normal; }
+
+/* }}} */
+
+div.msg {
+    padding: 10px;
+    background-color: #ef7c21;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+}

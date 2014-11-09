@@ -1,0 +1,15 @@
+{
+  "name": "ng-angry",
+  "homepage": "https://github.com/hash-bang/ng-Angry",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "44c74aa2fed4b2bf1b72c9ecd4ba9674aa66099e"
+  },
+  "_source": "git://github.com/hash-bang/ng-Angry.git",
+  "_target": "~0.1.0",
+  "_originalSource": "ng-angry",
+  "_direct": true
+}

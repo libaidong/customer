@@ -1,0 +1,401 @@
+Name,Description,Notes,Area,Cost per Hour
+"Level PLAZA, Zone  1, North Tower AHAC",,"level:PLAZA, tenant:, zone:1",,35
+"Level PLAZA, Zone  2, North Tower AHAC",,"level:PLAZA, tenant:, zone:2",,35
+"Level PLAZA, Zone  3, North Tower AHAC",,"level:PLAZA, tenant:, zone:3",,35
+"Level PLAZA, Zone  4, North Tower AHAC",,"level:PLAZA, tenant:, zone:4",,35
+"Level M1, Zone  1, North Tower AHAC",,"level:M1, tenant:, zone:1",,35
+"Level M1, Zone  2, North Tower AHAC",,"level:M1, tenant:, zone:2",,35
+"Level M1, Zone  3, North Tower AHAC",,"level:M1, tenant:, zone:3",,35
+"Level M1, Zone  4, North Tower AHAC",,"level:M1, tenant:, zone:4",,35
+"Grollo Leasure, Level M2, Zone  1, North Tower AHAC",,"level:M2, tenant:Grollo Leasure, zone:1",265,35
+"Level M2, Zone  2, North Tower AHAC",,"level:M2, tenant:, zone:2",,35
+"Level M2, Zone  3, North Tower AHAC",,"level:M2, tenant:, zone:3",,35
+"Level M2, Zone  4, North Tower AHAC",,"level:M2, tenant:, zone:4",,35
+"Level 1, Zone  1, North Tower AHAC",,"level:1, tenant:, zone:1",,35
+"Level 1, Zone  2, North Tower AHAC",,"level:1, tenant:, zone:2",,35
+"Bourse Data, Level 1, Zone  3, North Tower AHAC",Meeting Room  1,"level:1, tenant:Bourse Data, zone:3",,35
+"Bourse Data, Level 1, Zone  4, North Tower AHAC",Data Centre,"level:1, tenant:Bourse Data, zone:4",0,35
+"LVMH + Taylor Root, Level 2, Zone  1, North Tower AHAC",Call Centre,"level:2, tenant:LVMH + Taylor Root, zone:1",,35
+"Level 2, Zone  2, North Tower AHAC",,"level:2, tenant:, zone:2",,35
+"Charley Lily, Level 2, Zone  3, North Tower AHAC",Stan's Office,"level:2, tenant:Charley Lily, zone:3",,35
+"City Central, Level 2, Zone  4, North Tower AHAC",,"level:2, tenant:City Central, zone:4",,35
+"ITG, Level 3, Zone  1, North Tower AHAC",,"level:3, tenant:ITG, zone:1",518,35
+"ITG, Level 3, Zone  2, North Tower AHAC",,"level:3, tenant:ITG, zone:2",301,35
+"Level 3, Zone  3, North Tower AHAC",,"level:3, tenant:, zone:3",0,35
+"Level 3, Zone  4, North Tower AHAC",,"level:3, tenant:, zone:4",0,35
+"JLL, Level 4, Zone  1, North Tower AHAC",,"level:4, tenant:JLL, zone:1",205.2,35
+"JLL, Level 4, Zone  2, North Tower AHAC",,"level:4, tenant:JLL, zone:2",205.2,35
+"St Martins, Level 4, Zone  3, North Tower AHAC",,"level:4, tenant:St Martins, zone:3",205.2,35
+"St Martins, Level 4, Zone  4, North Tower AHAC",,"level:4, tenant:St Martins, zone:4",205.2,35
+"Australian Drilling, Level 5, Zone  1, North Tower AHAC",,"level:5, tenant:Australian Drilling, zone:1",273.6,35
+"Australian Drilling, Level 5, Zone  2, North Tower AHAC",,"level:5, tenant:Australian Drilling, zone:2",273.6,35
+"Australian Drilling, Level 5, Zone  3, North Tower AHAC",,"level:5, tenant:Australian Drilling, zone:3",273.6,35
+"Level 5, Zone  4, North Tower AHAC",,"level:5, tenant:, zone:4",0,35
+"Telstra, Level 6, Zone  1, North Tower AHAC",,"level:6, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 6, Zone  2, North Tower AHAC",,"level:6, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 6, Zone  3, North Tower AHAC",,"level:6, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 6, Zone  4, North Tower AHAC",,"level:6, tenant:Telstra, zone:4",205.2,35
+"Randstat, Level 7, Zone  1, North Tower AHAC",,"level:7, tenant:Randstat, zone:1",205.2,35
+"Randstat, Level 7, Zone  2, North Tower AHAC",,"level:7, tenant:Randstat, zone:2",205.2,35
+"Randstat, Level 7, Zone  3, North Tower AHAC",,"level:7, tenant:Randstat, zone:3",205.2,35
+"Randstat, Level 7, Zone  4, North Tower AHAC",,"level:7, tenant:Randstat, zone:4",205.2,35
+"Bird Cameron, Level 8, Zone  1, North Tower AHAC",,"level:8, tenant:Bird Cameron, zone:1",205.2,35
+"Bird Cameron, Level 8, Zone  2, North Tower AHAC",,"level:8, tenant:Bird Cameron, zone:2",205.2,35
+"Bird Cameron, Level 8, Zone  3, North Tower AHAC",,"level:8, tenant:Bird Cameron, zone:3",205.2,35
+"Bird Cameron, Level 8, Zone  4, North Tower AHAC",,"level:8, tenant:Bird Cameron, zone:4",205.2,35
+"Telstra, Level 9, Zone  1, North Tower AHAC",,"level:9, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 9, Zone  2, North Tower AHAC",,"level:9, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 9, Zone  3, North Tower AHAC",,"level:9, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 9, Zone  4, North Tower AHAC",,"level:9, tenant:Telstra, zone:4",205.2,35
+"Telstra, Level 10, Zone  1, North Tower AHAC",,"level:10, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 10, Zone  2, North Tower AHAC",,"level:10, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 10, Zone  3, North Tower AHAC",,"level:10, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 10, Zone  4, North Tower AHAC",,"level:10, tenant:Telstra, zone:4",205.2,35
+"Telstra, Level 11, Zone  1, North Tower AHAC",,"level:11, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 11, Zone  2, North Tower AHAC",,"level:11, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 11, Zone  3, North Tower AHAC",,"level:11, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 11, Zone  4, North Tower AHAC",,"level:11, tenant:Telstra, zone:4",205.2,35
+"Telstra, Level 12, Zone  1, North Tower AHAC",,"level:12, tenant:Telstra, zone:1",203.6,35
+"Telstra, Level 12, Zone  2, North Tower AHAC",,"level:12, tenant:Telstra, zone:2",203.6,35
+"Telstra, Level 12, Zone  3, North Tower AHAC",,"level:12, tenant:Telstra, zone:3",203.6,35
+"Telstra, Level 12, Zone  4, North Tower AHAC",,"level:12, tenant:Telstra, zone:4",203.6,35
+"Telstra, Level 13, Zone  1, North Tower AHAC",,"level:13, tenant:Telstra, zone:1",204.1,35
+"Telstra, Level 13, Zone  2, North Tower AHAC",,"level:13, tenant:Telstra, zone:2",204.1,35
+"Telstra, Level 13, Zone  3, North Tower AHAC",,"level:13, tenant:Telstra, zone:3",204.1,35
+"Telstra, Level 13, Zone  4, North Tower AHAC",,"level:13, tenant:Telstra, zone:4",204.1,35
+"Telstra, Level 14, Zone  1, North Tower AHAC",,"level:14, tenant:Telstra, zone:1",201.2,35
+"Telstra, Level 14, Zone  2, North Tower AHAC",,"level:14, tenant:Telstra, zone:2",201.2,35
+"Telstra, Level 14, Zone  3, North Tower AHAC",,"level:14, tenant:Telstra, zone:3",201.2,35
+"Telstra, Level 14, Zone  4, North Tower AHAC",,"level:14, tenant:Telstra, zone:4",201.2,35
+"Telstra, Level 15, Zone  1, North Tower AHAC",,"level:15, tenant:Telstra, zone:1",219.5,35
+"Telstra, Level 15, Zone  2, North Tower AHAC",,"level:15, tenant:Telstra, zone:2",219.5,35
+"Telstra, Level 15, Zone  3, North Tower AHAC",,"level:15, tenant:Telstra, zone:3",219.5,35
+"Telstra, Level 15, Zone  4, North Tower AHAC",,"level:15, tenant:Telstra, zone:4",219.5,35
+"Minters, Level 16, Zone  1, North Tower AHAC",,"level:16, tenant:Minters, zone:1",292.1,35
+"Minters, Level 16, Zone  2, North Tower AHAC",,"level:16, tenant:Minters, zone:2",292.1,35
+"Minters, Level 16, Zone  3, North Tower AHAC",,"level:16, tenant:Minters, zone:3",292.1,35
+"Level 16, Zone  4, North Tower AHAC",,"level:16, tenant:, zone:4",0,35
+"Clarenden Lawyers Minters, Level 17, Zone  1, North Tower AHAC",,"level:17, tenant:Clarenden Lawyers Minters, zone:1",292.1,35
+"Clarenden Lawyers Minters, Level 17, Zone  2, North Tower AHAC",,"level:17, tenant:Clarenden Lawyers Minters, zone:2",292.1,35
+"Clarenden Lawyers Minters, Level 17, Zone  3, North Tower AHAC",,"level:17, tenant:Clarenden Lawyers Minters, zone:3",292.1,35
+"Level 17, Zone  4, North Tower AHAC",,"level:17, tenant:, zone:4",0,35
+"Minters, Level 18, Zone  1, North Tower AHAC",,"level:18, tenant:Minters, zone:1",292.1,35
+"Minters, Level 18, Zone  2, North Tower AHAC",,"level:18, tenant:Minters, zone:2",292.1,35
+"Minters, Level 18, Zone  3, North Tower AHAC",,"level:18, tenant:Minters, zone:3",292.1,35
+"Level 18, Zone  4, North Tower AHAC",,"level:18, tenant:, zone:4",0,35
+"Minters, Level 19, Zone  1, North Tower AHAC",,"level:19, tenant:Minters, zone:1",292.1,35
+"Minters, Level 19, Zone  2, North Tower AHAC",,"level:19, tenant:Minters, zone:2",292.1,35
+"Minters, Level 19, Zone  3, North Tower AHAC",,"level:19, tenant:Minters, zone:3",292.1,35
+"Level 19, Zone  4, North Tower AHAC",,"level:19, tenant:, zone:4",0,35
+"Minters, Level 20, Zone  1, North Tower AHAC",,"level:20, tenant:Minters, zone:1",292.1,35
+"Minters, Level 20, Zone  2, North Tower AHAC",,"level:20, tenant:Minters, zone:2",292.1,35
+"Minters, Level 20, Zone  3, North Tower AHAC",,"level:20, tenant:Minters, zone:3",292.1,35
+"Level 20, Zone  4, North Tower AHAC",,"level:20, tenant:, zone:4",0,35
+"Minters, Level 21, Zone  1, North Tower AHAC",,"level:21, tenant:Minters, zone:1",292.1,35
+"Minters, Level 21, Zone  2, North Tower AHAC",,"level:21, tenant:Minters, zone:2",292.1,35
+"Minters, Level 21, Zone  3, North Tower AHAC",,"level:21, tenant:Minters, zone:3",292.1,35
+"Level 21, Zone  4, North Tower AHAC",,"level:21, tenant:, zone:4",0,35
+"Minters, Level 22, Zone  1, North Tower AHAC",,"level:22, tenant:Minters, zone:1",292.1,35
+"Minters, Level 22, Zone  2, North Tower AHAC",,"level:22, tenant:Minters, zone:2",292.1,35
+"Minters, Level 22, Zone  3, North Tower AHAC",,"level:22, tenant:Minters, zone:3",292.1,35
+"Level 22, Zone  4, North Tower AHAC",,"level:22, tenant:, zone:4",0,35
+"Minters, Level 23, Zone  1, North Tower AHAC",,"level:23, tenant:Minters, zone:1",291.3,35
+"Minters, Level 23, Zone  2, North Tower AHAC",,"level:23, tenant:Minters, zone:2",291.3,35
+"Minters, Level 23, Zone  3, North Tower AHAC",,"level:23, tenant:Minters, zone:3",291.3,35
+"Level 23, Zone  4, North Tower AHAC",,"level:23, tenant:, zone:4",0,35
+"Middletons, Level 24, Zone  1, North Tower AHAC",,"level:24, tenant:Middletons, zone:1",281.1,35
+"Middletons, Level 24, Zone  2, North Tower AHAC",,"level:24, tenant:Middletons, zone:2",281.1,35
+"Middletons, Level 24, Zone  3, North Tower AHAC",,"level:24, tenant:Middletons, zone:3",281.1,35
+"Level 24, Zone  4, North Tower AHAC",,"level:24, tenant:, zone:4",0,35
+"Middletons, Level 25, Zone  1, North Tower AHAC",,"level:25, tenant:Middletons, zone:1",287.8,35
+"Middletons, Level 25, Zone  2, North Tower AHAC",,"level:25, tenant:Middletons, zone:2",287.8,35
+"Middletons, Level 25, Zone  3, North Tower AHAC",,"level:25, tenant:Middletons, zone:3",287.8,35
+"Level 25, Zone  4, North Tower AHAC",,"level:25, tenant:, zone:4",0,35
+"Middletons, Level 26, Zone  1, North Tower AHAC",,"level:26, tenant:Middletons, zone:1",281.6,35
+"Middletons, Level 26, Zone  2, North Tower AHAC",,"level:26, tenant:Middletons, zone:2",281.6,35
+"Middletons, Level 26, Zone  3, North Tower AHAC",,"level:26, tenant:Middletons, zone:3",281.6,35
+"Level 26, Zone  4, North Tower AHAC",,"level:26, tenant:, zone:4",0,35
+"Middletons, Level 27, Zone  1, North Tower AHAC",,"level:27, tenant:Middletons, zone:1",278.6,35
+"Middletons, Level 27, Zone  2, North Tower AHAC",,"level:27, tenant:Middletons, zone:2",278.6,35
+"Middletons, Level 27, Zone  3, North Tower AHAC",,"level:27, tenant:Middletons, zone:3",278.6,35
+"Level 27, Zone  4, North Tower AHAC",,"level:27, tenant:, zone:4",0,35
+"BDO, Level 28, Zone  1, North Tower AHAC",,"level:28, tenant:BDO, zone:1",234,35
+"BDO, Level 28, Zone  2, North Tower AHAC",,"level:28, tenant:BDO, zone:2",234,35
+"BDO, Level 28, Zone  3, North Tower AHAC",,"level:28, tenant:BDO, zone:3",234,35
+"BDO, Level 28, Zone  4, North Tower AHAC",,"level:28, tenant:BDO, zone:4",234,35
+"BDO, Level 29, Zone  1, North Tower AHAC",,"level:29, tenant:BDO, zone:1",234,35
+"BDO, Level 29, Zone  2, North Tower AHAC",,"level:29, tenant:BDO, zone:2",234,35
+"BDO, Level 29, Zone  3, North Tower AHAC",,"level:29, tenant:BDO, zone:3",234,35
+"BDO, Level 29, Zone  4, North Tower AHAC",,"level:29, tenant:BDO, zone:4",234,35
+"BDO, Level 30, Zone  1, North Tower AHAC",,"level:30, tenant:BDO, zone:1",234,35
+"BDO, Level 30, Zone  2, North Tower AHAC",,"level:30, tenant:BDO, zone:2",234,35
+"BDO, Level 30, Zone  3, North Tower AHAC",,"level:30, tenant:BDO, zone:3",234,35
+"BDO, Level 30, Zone  4, North Tower AHAC",,"level:30, tenant:BDO, zone:4",234,35
+"Monahan, Level 31, Zone  1, North Tower AHAC",,"level:31, tenant:Monahan, zone:1",506.6,35
+"Moneywise, Level 31, Zone  2, North Tower AHAC",,"level:31, tenant:Moneywise, zone:2",429.9,35
+"Level 31, Zone  3, North Tower AHAC",,"level:31, tenant:, zone:3",0,35
+"Level 31, Zone  4, North Tower AHAC",,"level:31, tenant:, zone:4",0,35
+"CBRE, Level 32, Zone  1, North Tower AHAC",,"level:32, tenant:CBRE, zone:1",234,35
+"CBRE, Level 32, Zone  2, North Tower AHAC",,"level:32, tenant:CBRE, zone:2",234,35
+"CBRE, Level 32, Zone  3, North Tower AHAC",,"level:32, tenant:CBRE, zone:3",234,35
+"CBRE, Level 32, Zone  4, North Tower AHAC",,"level:32, tenant:CBRE, zone:4",234,35
+"Talent, Level 33, Zone  1, North Tower AHAC",,"level:33, tenant:Talent, zone:1",416.4,35
+"Level 33, Zone  2, North Tower AHAC",,"level:33, tenant:, zone:2",0,35
+"IASBET, Level 33, Zone  3, North Tower AHAC",,"level:33, tenant:IASBET, zone:3",461.6,35
+"Level 33, Zone  4, North Tower AHAC",,"level:33, tenant:, zone:4",0,35
+"Daiwa, Level 34, Zone  1, North Tower AHAC",,"level:34, tenant:Daiwa, zone:1",290,35
+"Daiwa, Level 34, Zone  2, North Tower AHAC",,"level:34, tenant:Daiwa, zone:2",291,35
+"Equity & Super, Level 34, Zone  3, North Tower AHAC",,"level:34, tenant:Equity & Super, zone:3",239.2,35
+"Level 34, Zone  4, North Tower AHAC",,"level:34, tenant:, zone:4",0,35
+"National E Conveyancing, Level 35, Zone  1, North Tower AHAC",,"level:35, tenant:National E Conveyancing, zone:1",419.2,35
+"National E Conveyancing, Level 35, Zone  2, North Tower AHAC",,"level:35, tenant:National E Conveyancing, zone:2",419.2,35
+"Level 35, Zone  3, North Tower AHAC",,"level:35, tenant:, zone:3",0,35
+"Level 35, Zone  4, North Tower AHAC",,"level:35, tenant:, zone:4",0,35
+"Perpetual, Level 36, Zone  1, North Tower AHAC",,"level:36, tenant:Perpetual, zone:1",233,35
+"Perpetual, Level 36, Zone  2, North Tower AHAC",,"level:36, tenant:Perpetual, zone:2",233,35
+"Perpetual, Level 36, Zone  3, North Tower AHAC",,"level:36, tenant:Perpetual, zone:3",233,35
+"Perpetual, Level 36, Zone  4, North Tower AHAC",,"level:36, tenant:Perpetual, zone:4",233,35
+"ANP, Level 37, Zone  1, North Tower AHAC",,"level:37, tenant:ANP, zone:1",242,35
+"ANP, Level 37, Zone  2, North Tower AHAC",,"level:37, tenant:ANP, zone:2",193.5,35
+"ANP, Level 37, Zone  3, North Tower AHAC",,"level:37, tenant:ANP, zone:3",205.6,35
+"ANP, Level 37, Zone  4, North Tower AHAC",,"level:37, tenant:ANP, zone:4",205.6,35
+"Thomsons Lawers, Level 38, Zone  1, North Tower AHAC",,"level:38, tenant:Thomsons Lawers, zone:1",279,35
+"Level 38, Zone  2, North Tower AHAC",,"level:38, tenant:, zone:2",0,35
+"Level 38, Zone  3, North Tower AHAC",,"level:38, tenant:, zone:3",0,35
+"Level 38, Zone  4, North Tower AHAC",,"level:38, tenant:, zone:4",0,35
+"Thomsons Lawers, Level 39, Zone  1, North Tower AHAC",,"level:39, tenant:Thomsons Lawers, zone:1",238.8,35
+"Level 39, Zone  2, North Tower AHAC",,"level:39, tenant:, zone:2",,35
+"Level 39, Zone  3, North Tower AHAC",,"level:39, tenant:, zone:3",,35
+"Level 39, Zone  4, North Tower AHAC",,"level:39, tenant:, zone:4",,35
+"Level PLAZA, Zone  1, South Tower AHAC",,"level:PLAZA, tenant:, zone:1",,35
+"Level PLAZA, Zone  2, South Tower AHAC",,"level:PLAZA, tenant:, zone:2",,35
+"Level PLAZA, Zone  3, South Tower AHAC",,"level:PLAZA, tenant:, zone:3",,35
+"Level PLAZA, Zone  4, South Tower AHAC",,"level:PLAZA, tenant:, zone:4",,35
+"Level M1, Zone  1, South Tower AHAC",,"level:M1, tenant:, zone:1",,35
+"Level M1, Zone  2, South Tower AHAC",,"level:M1, tenant:, zone:2",,35
+"Level M1, Zone  3, South Tower AHAC",,"level:M1, tenant:, zone:3",,35
+"Level M1, Zone  4, South Tower AHAC",,"level:M1, tenant:, zone:4",,35
+"Level M2, Zone  1, South Tower AHAC",,"level:M2, tenant:, zone:1",,35
+"Level M2, Zone  2, South Tower AHAC",,"level:M2, tenant:, zone:2",,35
+"Level M2, Zone  3, South Tower AHAC",,"level:M2, tenant:, zone:3",,35
+"Level M2, Zone  4, South Tower AHAC",,"level:M2, tenant:, zone:4",,35
+"Level 1, Zone  1, South Tower AHAC",,"level:1, tenant:, zone:1",,35
+"Level 1, Zone  2, South Tower AHAC",,"level:1, tenant:, zone:2",,35
+"Level 1, Zone  3, South Tower AHAC",,"level:1, tenant:, zone:3",,35
+"Level 1, Zone  4, South Tower AHAC",,"level:1, tenant:, zone:4",,35
+"Architecture, Level 2, Zone  1, South Tower AHAC",,"level:2, tenant:Architecture, zone:1",234.5,35
+"Middletons, Level 2, Zone  2, South Tower AHAC",,"level:2, tenant:Middletons, zone:2",170,35
+"Middletons, Level 2, Zone  3, South Tower AHAC",,"level:2, tenant:Middletons, zone:3",331,35
+"Level 2, Zone  4, South Tower AHAC",,"level:2, tenant:, zone:4",0,35
+"Telstra, Level 3, Zone  1, South Tower AHAC",,"level:3, tenant:Telstra, zone:1",203,35
+"Telstra, Level 3, Zone  2, South Tower AHAC",,"level:3, tenant:Telstra, zone:2",203,35
+"Telstra, Level 3, Zone  3, South Tower AHAC",,"level:3, tenant:Telstra, zone:3",203,35
+"Telstra, Level 3, Zone  4, South Tower AHAC",,"level:3, tenant:Telstra, zone:4",203,35
+"Telstra, Level 4, Zone  1, South Tower AHAC",,"level:4, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 4, Zone  2, South Tower AHAC",,"level:4, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 4, Zone  3, South Tower AHAC",,"level:4, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 4, Zone  4, South Tower AHAC",,"level:4, tenant:Telstra, zone:4",205.2,35
+"Telstra, Level 5, Zone  1, South Tower AHAC",,"level:5, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 5, Zone  2, South Tower AHAC",,"level:5, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 5, Zone  3, South Tower AHAC",,"level:5, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 5, Zone  4, South Tower AHAC",,"level:5, tenant:Telstra, zone:4",205.2,35
+"Telstra, Level 6, Zone  1, South Tower AHAC",,"level:6, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 6, Zone  2, South Tower AHAC",,"level:6, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 6, Zone  3, South Tower AHAC",,"level:6, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 6, Zone  4, South Tower AHAC",,"level:6, tenant:Telstra, zone:4",205.2,35
+"Bird Cameron, Level 7, Zone  1, South Tower AHAC",,"level:7, tenant:Bird Cameron, zone:1",273.6,35
+"Randstat, Level 7, Zone  2, South Tower AHAC",,"level:7, tenant:Randstat, zone:2",273.6,35
+"Randstat, Level 7, Zone  3, South Tower AHAC",,"level:7, tenant:Randstat, zone:3",273.6,35
+"Level 7, Zone  4, South Tower AHAC",,"level:7, tenant:, zone:4",0,35
+"Bird Cameron, Level 8, Zone  1, South Tower AHAC",,"level:8, tenant:Bird Cameron, zone:1",205.2,35
+"Bird Cameron, Level 8, Zone  2, South Tower AHAC",,"level:8, tenant:Bird Cameron, zone:2",205.2,35
+"Bird Cameron, Level 8, Zone  3, South Tower AHAC",,"level:8, tenant:Bird Cameron, zone:3",205.2,35
+"Bird Cameron, Level 8, Zone  4, South Tower AHAC",,"level:8, tenant:Bird Cameron, zone:4",205.2,35
+"Telstra, Level 9, Zone  1, South Tower AHAC",,"level:9, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 9, Zone  2, South Tower AHAC",,"level:9, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 9, Zone  3, South Tower AHAC",,"level:9, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 9, Zone  4, South Tower AHAC",,"level:9, tenant:Telstra, zone:4",205.2,35
+"Telstra, Level 10, Zone  1, South Tower AHAC",,"level:10, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 10, Zone  2, South Tower AHAC",,"level:10, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 10, Zone  3, South Tower AHAC",,"level:10, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 10, Zone  4, South Tower AHAC",,"level:10, tenant:Telstra, zone:4",205.2,35
+"Telstra, Level 11, Zone  1, South Tower AHAC",,"level:11, tenant:Telstra, zone:1",205.2,35
+"Telstra, Level 11, Zone  2, South Tower AHAC",,"level:11, tenant:Telstra, zone:2",205.2,35
+"Telstra, Level 11, Zone  3, South Tower AHAC",,"level:11, tenant:Telstra, zone:3",205.2,35
+"Telstra, Level 11, Zone  4, South Tower AHAC",,"level:11, tenant:Telstra, zone:4",205.2,35
+"Telstra, Level 12, Zone  1, South Tower AHAC",,"level:12, tenant:Telstra, zone:1",203.6,35
+"Telstra, Level 12, Zone  2, South Tower AHAC",,"level:12, tenant:Telstra, zone:2",203.6,35
+"Telstra, Level 12, Zone  3, South Tower AHAC",,"level:12, tenant:Telstra, zone:3",203.6,35
+"Telstra, Level 12, Zone  4, South Tower AHAC",,"level:12, tenant:Telstra, zone:4",203.6,35
+"Telstra, Level 13, Zone  1, South Tower AHAC",,"level:13, tenant:Telstra, zone:1",204.1,35
+"Telstra, Level 13, Zone  2, South Tower AHAC",,"level:13, tenant:Telstra, zone:2",204.1,35
+"Telstra, Level 13, Zone  3, South Tower AHAC",,"level:13, tenant:Telstra, zone:3",204.1,35
+"Telstra, Level 13, Zone  4, South Tower AHAC",,"level:13, tenant:Telstra, zone:4",204.1,35
+"Telstra, Level 14, Zone  1, South Tower AHAC",,"level:14, tenant:Telstra, zone:1",201.25,35
+"Telstra, Level 14, Zone  2, South Tower AHAC",,"level:14, tenant:Telstra, zone:2",201.25,35
+"Telstra, Level 14, Zone  3, South Tower AHAC",,"level:14, tenant:Telstra, zone:3",201.25,35
+"Telstra, Level 14, Zone  4, South Tower AHAC",,"level:14, tenant:Telstra, zone:4",201.25,35
+"Minters, Level 15, Zone  1, South Tower AHAC",,"level:15, tenant:Minters, zone:1",219.5,35
+"Telstra, Level 15, Zone  2, South Tower AHAC",,"level:15, tenant:Telstra, zone:2",219.5,35
+"Telstra, Level 15, Zone  3, South Tower AHAC",,"level:15, tenant:Telstra, zone:3",219.5,35
+"Telstra, Level 15, Zone  4, South Tower AHAC",,"level:15, tenant:Telstra, zone:4",219.5,35
+"Minters, Level 16, Zone  1, South Tower AHAC",,"level:16, tenant:Minters, zone:1",292.1,35
+"Minters, Level 16, Zone  2, South Tower AHAC",,"level:16, tenant:Minters, zone:2",292.1,35
+"Minters, Level 16, Zone  3, South Tower AHAC",,"level:16, tenant:Minters, zone:3",292.1,35
+"Level 16, Zone  4, South Tower AHAC",,"level:16, tenant:, zone:4",0,35
+"Minters, Level 17, Zone  1, South Tower AHAC",,"level:17, tenant:Minters, zone:1",292.1,35
+"Minters, Level 17, Zone  2, South Tower AHAC",,"level:17, tenant:Minters, zone:2",292.1,35
+"Minters, Level 17, Zone  3, South Tower AHAC",,"level:17, tenant:Minters, zone:3",292.1,35
+"Level 17, Zone  4, South Tower AHAC",,"level:17, tenant:, zone:4",0,35
+"Minters, Level 18, Zone  1, South Tower AHAC",,"level:18, tenant:Minters, zone:1",292.1,35
+"Minters, Level 18, Zone  2, South Tower AHAC",,"level:18, tenant:Minters, zone:2",292.1,35
+"Minters, Level 18, Zone  3, South Tower AHAC",,"level:18, tenant:Minters, zone:3",292.1,35
+"Level 18, Zone  4, South Tower AHAC",,"level:18, tenant:, zone:4",0,35
+"Minters, Level 19, Zone  1, South Tower AHAC",,"level:19, tenant:Minters, zone:1",292.1,35
+"Minters, Level 19, Zone  2, South Tower AHAC",,"level:19, tenant:Minters, zone:2",292.1,35
+"Minters, Level 19, Zone  3, South Tower AHAC",,"level:19, tenant:Minters, zone:3",292.1,35
+"Level 19, Zone  4, South Tower AHAC",,"level:19, tenant:, zone:4",0,35
+"Minters, Level 20, Zone  1, South Tower AHAC",,"level:20, tenant:Minters, zone:1",292.1,35
+"Minters, Level 20, Zone  2, South Tower AHAC",,"level:20, tenant:Minters, zone:2",292.1,35
+"Minters, Level 20, Zone  3, South Tower AHAC",,"level:20, tenant:Minters, zone:3",292.1,35
+"Level 20, Zone  4, South Tower AHAC",,"level:20, tenant:, zone:4",0,35
+"Minters, Level 21, Zone  1, South Tower AHAC",,"level:21, tenant:Minters, zone:1",292.1,35
+"Minters, Level 21, Zone  2, South Tower AHAC",,"level:21, tenant:Minters, zone:2",292.1,35
+"Minters, Level 21, Zone  3, South Tower AHAC",,"level:21, tenant:Minters, zone:3",292.1,35
+"Level 21, Zone  4, South Tower AHAC",,"level:21, tenant:, zone:4",0,35
+"Minters, Level 22, Zone  1, South Tower AHAC",,"level:22, tenant:Minters, zone:1",292.1,35
+"Minters, Level 22, Zone  2, South Tower AHAC",,"level:22, tenant:Minters, zone:2",292.1,35
+"Minters, Level 22, Zone  3, South Tower AHAC",,"level:22, tenant:Minters, zone:3",292.1,35
+"Level 22, Zone  4, South Tower AHAC",,"level:22, tenant:, zone:4",0,35
+"Minters, Level 23, Zone  1, South Tower AHAC",,"level:23, tenant:Minters, zone:1",291.3,35
+"Minters, Level 23, Zone  2, South Tower AHAC",,"level:23, tenant:Minters, zone:2",291.3,35
+"Minters, Level 23, Zone  3, South Tower AHAC",,"level:23, tenant:Minters, zone:3",291.3,35
+"Level 23, Zone  4, South Tower AHAC",,"level:23, tenant:, zone:4",0,35
+"Middletons, Level 24, Zone  1, South Tower AHAC",,"level:24, tenant:Middletons, zone:1",281.1,35
+"Middletons, Level 24, Zone  2, South Tower AHAC",,"level:24, tenant:Middletons, zone:2",281.1,35
+"Middletons, Level 24, Zone  3, South Tower AHAC",,"level:24, tenant:Middletons, zone:3",281.1,35
+"Level 24, Zone  4, South Tower AHAC",,"level:24, tenant:, zone:4",0,35
+"Middletons, Level 25, Zone  1, South Tower AHAC",,"level:25, tenant:Middletons, zone:1",287.8,35
+"Middletons, Level 25, Zone  2, South Tower AHAC",,"level:25, tenant:Middletons, zone:2",287.8,35
+"Middletons, Level 25, Zone  3, South Tower AHAC",,"level:25, tenant:Middletons, zone:3",287.8,35
+"Level 25, Zone  4, South Tower AHAC",,"level:25, tenant:, zone:4",0,35
+"Middletons, Level 26, Zone  1, South Tower AHAC",,"level:26, tenant:Middletons, zone:1",281.6,35
+"Middletons, Level 26, Zone  2, South Tower AHAC",,"level:26, tenant:Middletons, zone:2",281.6,35
+"Middletons, Level 26, Zone  3, South Tower AHAC",,"level:26, tenant:Middletons, zone:3",281.6,35
+"Level 26, Zone  4, South Tower AHAC",,"level:26, tenant:, zone:4",0,35
+"Regus, Level 27, Zone  1, South Tower AHAC",,"level:27, tenant:Regus, zone:1",249.7,35
+"Regus, Level 27, Zone  2, South Tower AHAC",,"level:27, tenant:Regus, zone:2",249.7,35
+"Regus, Level 27, Zone  3, South Tower AHAC",,"level:27, tenant:Regus, zone:3",249.7,35
+"Regus, Level 27, Zone  4, South Tower AHAC",,"level:27, tenant:Regus, zone:4",249.7,35
+"BDO, Level 28, Zone  1, South Tower AHAC",,"level:28, tenant:BDO, zone:1",234,35
+"BDO, Level 28, Zone  2, South Tower AHAC",,"level:28, tenant:BDO, zone:2",234,35
+"BDO, Level 28, Zone  3, South Tower AHAC",,"level:28, tenant:BDO, zone:3",234,35
+"BDO, Level 28, Zone  4, South Tower AHAC",,"level:28, tenant:BDO, zone:4",234,35
+"BDO, Level 29, Zone  1, South Tower AHAC",,"level:29, tenant:BDO, zone:1",234,35
+"BDO, Level 29, Zone  2, South Tower AHAC",,"level:29, tenant:BDO, zone:2",234,35
+"BDO, Level 29, Zone  3, South Tower AHAC",,"level:29, tenant:BDO, zone:3",234,35
+"BDO, Level 29, Zone  4, South Tower AHAC",,"level:29, tenant:BDO, zone:4",234,35
+"BDO, Level 30, Zone  1, South Tower AHAC",,"level:30, tenant:BDO, zone:1",234,35
+"BDO, Level 30, Zone  2, South Tower AHAC",,"level:30, tenant:BDO, zone:2",234,35
+"BDO, Level 30, Zone  3, South Tower AHAC",,"level:30, tenant:BDO, zone:3",234,35
+"BDO, Level 30, Zone  4, South Tower AHAC",,"level:30, tenant:BDO, zone:4",234,35
+"Monahan, Level 31, Zone  1, South Tower AHAC",,"level:31, tenant:Monahan, zone:1",234,35
+"Monahan, Level 31, Zone  2, South Tower AHAC",,"level:31, tenant:Monahan, zone:2",234,35
+"Monahan, Level 31, Zone  3, South Tower AHAC",,"level:31, tenant:Monahan, zone:3",234,35
+"Monahan, Level 31, Zone  4, South Tower AHAC",,"level:31, tenant:Monahan, zone:4",234,35
+"CBRE, Level 32, Zone  1, South Tower AHAC",,"level:32, tenant:CBRE, zone:1",234,35
+"CBRE, Level 32, Zone  2, South Tower AHAC",,"level:32, tenant:CBRE, zone:2",234,35
+"CBRE, Level 32, Zone  3, South Tower AHAC",,"level:32, tenant:CBRE, zone:3",234,35
+"CBRE, Level 32, Zone  4, South Tower AHAC",,"level:32, tenant:CBRE, zone:4",234,35
+"Level 33, Zone  1, South Tower AHAC",,"level:33, tenant:, zone:1",248.7,35
+"Level 33, Zone  2, South Tower AHAC",,"level:33, tenant:, zone:2",248.7,35
+"Level 33, Zone  3, South Tower AHAC",,"level:33, tenant:, zone:3",248.7,35
+"Level 33, Zone  4, South Tower AHAC",,"level:33, tenant:, zone:4",248.7,35
+"Perpetual, Level 34, Zone  1, South Tower AHAC",,"level:34, tenant:Perpetual, zone:1",249.2,35
+"Perpetual, Level 34, Zone  2, South Tower AHAC",,"level:34, tenant:Perpetual, zone:2",249.2,35
+"Perpetual, Level 34, Zone  3, South Tower AHAC",,"level:34, tenant:Perpetual, zone:3",249.2,35
+"Perpetual, Level 34, Zone  4, South Tower AHAC",,"level:34, tenant:Perpetual, zone:4",249.2,35
+"Perpetual, Level 35, Zone  1, South Tower AHAC",,"level:35, tenant:Perpetual, zone:1",248.2,35
+"Perpetual, Level 35, Zone  2, South Tower AHAC",,"level:35, tenant:Perpetual, zone:2",248.2,35
+"Perpetual, Level 35, Zone  3, South Tower AHAC",,"level:35, tenant:Perpetual, zone:3",248.2,35
+"Perpetual, Level 35, Zone  4, South Tower AHAC",,"level:35, tenant:Perpetual, zone:4",248.2,35
+"Perpetual, Level 36, Zone  1, South Tower AHAC",,"level:36, tenant:Perpetual, zone:1",233.25,35
+"Perpetual, Level 36, Zone  2, South Tower AHAC",,"level:36, tenant:Perpetual, zone:2",233.25,35
+"Perpetual, Level 36, Zone  3, South Tower AHAC",,"level:36, tenant:Perpetual, zone:3",233.25,35
+"Perpetual, Level 36, Zone  4, South Tower AHAC",,"level:36, tenant:Perpetual, zone:4",233.25,35
+"Equiset, Level 37, Zone  1, South Tower AHAC",,"level:37, tenant:Equiset, zone:1",253,35
+"Equiset, Level 37, Zone  2, South Tower AHAC",,"level:37, tenant:Equiset, zone:2",252,35
+"MDS Financial, Level 37, Zone  3, South Tower AHAC",,"level:37, tenant:MDS Financial, zone:3",375,35
+"Level 37, Zone  4, South Tower AHAC",,"level:37, tenant:, zone:4",0,35
+"Thomsons Lawers, Level 38, Zone  1, South Tower AHAC",,"level:38, tenant:Thomsons Lawers, zone:1",340,35
+"Aust Global Training, Level 38, Zone  2, South Tower AHAC",,"level:38, tenant:Aust Global Training, zone:2",265,35
+"Thomson Lawers, Level 38, Zone  3, South Tower AHAC",,"level:38, tenant:Thomson Lawers, zone:3",384,35
+"Level 38, Zone  4, South Tower AHAC",,"level:38, tenant:, zone:4",0,35
+"Thomsons Lawers, Level 39, Zone  1, South Tower AHAC",,"level:39, tenant:Thomsons Lawers, zone:1",955.2,35
+"Level 39, Zone  2, South Tower AHAC",,"level:39, tenant:, zone:2",0,35
+"Level 39, Zone  3, South Tower AHAC",,"level:39, tenant:, zone:3",0,35
+"Level 39, Zone  4, South Tower AHAC",,"level:39, tenant:, zone:4",0,35
+"Thomsons Lawers, Level 40, Zone  1, South Tower AHAC",,"level:40, tenant:Thomsons Lawers, zone:1",707,35
+"??, Level 40, Zone  2, South Tower AHAC",,"level:40, tenant:??, zone:2",277,35
+"Level 40, Zone  3, South Tower AHAC",,"level:40, tenant:, zone:3",0,35
+"Level 40, Zone  4, South Tower AHAC",,"level:40, tenant:, zone:4",0,35
+"Vacant, Level 40, Zone  5, South Tower AHAC",,"level:40, tenant:Vacant, zone:5",238.8,35
+"Bank of Cyprus, Level 41, Zone  1, South Tower AHAC",,"level:41, tenant:Bank of Cyprus, zone:1",249.75,35
+"Bank of Cyprus, Level 41, Zone  2, South Tower AHAC",,"level:41, tenant:Bank of Cyprus, zone:2",249.75,35
+"Bank of Cyprus, Level 41, Zone  3, South Tower AHAC",,"level:41, tenant:Bank of Cyprus, zone:3",249.75,35
+"Bank of Cyprus, Level 41, Zone  4, South Tower AHAC",,"level:41, tenant:Bank of Cyprus, zone:4",249.75,35
+"Winston Turner, Level 42, Zone  1, South Tower AHAC",,"level:42, tenant:Winston Turner, zone:1",203.5,35
+"Level 42, Zone  2, South Tower AHAC",,"level:42, tenant:, zone:2",0,35
+"Nevett Ford, Level 42, Zone  3, South Tower AHAC",,"level:42, tenant:Nevett Ford, zone:3",593.8,35
+"St Martins, Level 42, Zone  4, South Tower AHAC",,"level:42, tenant:St Martins, zone:4",162.3,35
+"Vacant, Level 43, Zone  1, South Tower AHAC",,"level:43, tenant:Vacant, zone:1",250,35
+"Vacant, Level 43, Zone  2, South Tower AHAC",,"level:43, tenant:Vacant, zone:2",250,35
+"Vacant, Level 43, Zone  3, South Tower AHAC",,"level:43, tenant:Vacant, zone:3",250,35
+"Vacant, Level 43, Zone  4, South Tower AHAC",,"level:43, tenant:Vacant, zone:4",250,35
+"Southern Cross, Level 44, Zone  1, South Tower AHAC",,"level:44, tenant:Southern Cross, zone:1",312,35
+"ATN, Level 44, Zone  2, South Tower AHAC",,"level:44, tenant:ATN, zone:2",179,35
+"Cordiner King, Level 44, Zone  3, South Tower AHAC",,"level:44, tenant:Cordiner King, zone:3",231,35
+"Cordiner King, Level 44, Zone  4, South Tower AHAC",,"level:44, tenant:Cordiner King, zone:4",231,35
+"ASX, Level 45, Zone  1, South Tower AHAC",,"level:45, tenant:ASX, zone:1",222,35
+"ASX, Level 45, Zone  2, South Tower AHAC",,"level:45, tenant:ASX, zone:2",222,35
+"ASX, Level 45, Zone  3, South Tower AHAC",,"level:45, tenant:ASX, zone:3",222,35
+"Wugang, Level 45, Zone  4, South Tower AHAC",,"level:45, tenant:Wugang, zone:4",297,35
+"John McMullan, Level 46, Zone  1, South Tower AHAC",,"level:46, tenant:John McMullan, zone:1",272.7,35
+"Stargate, Level 46, Zone  2, South Tower AHAC",,"level:46, tenant:Stargate, zone:2",334,35
+"Enterprise, Level 46, Zone  3, South Tower AHAC",,"level:46, tenant:Enterprise, zone:3",253,35
+"Enterprise, Level 46, Zone  4, South Tower AHAC",,"level:46, tenant:Enterprise, zone:4",102,35
+"Alliance Bernstein, Level 47, Zone  1, South Tower AHAC",,"level:47, tenant:Alliance Bernstein, zone:1",494,35
+"Visa International, Level 47, Zone  2, South Tower AHAC",,"level:47, tenant:Visa International, zone:2",210,35
+"Vacant, Level 47, Zone  3, South Tower AHAC",,"level:47, tenant:Vacant, zone:3",252,35
+"Vacant, Level 47, Zone  4, South Tower AHAC",,"level:47, tenant:Vacant, zone:4",0,35
+"Alliance Bernstein, Level 48, Zone  1, South Tower AHAC",,"level:48, tenant:Alliance Bernstein, zone:1",250,35
+"Alliance Bernstein, Level 48, Zone  2, South Tower AHAC",,"level:48, tenant:Alliance Bernstein, zone:2",250,35
+"Alliance Bernstein, Level 48, Zone  3, South Tower AHAC",,"level:48, tenant:Alliance Bernstein, zone:3",250,35
+"Alliance Bernstein, Level 48, Zone  4, South Tower AHAC",,"level:48, tenant:Alliance Bernstein, zone:4",250,35
+"Liberty Mutual, Level 49, Zone  1, South Tower AHAC",,"level:49, tenant:Liberty Mutual, zone:1",529,35
+"Level 49, Zone  2, South Tower AHAC",,"level:49, tenant:, zone:2",0,35
+"Melb Port, Level 49, Zone  3, South Tower AHAC",,"level:49, tenant:Melb Port, zone:3",436.8,35
+"Melb Port, Level 49, Zone  4, South Tower AHAC",,"level:49, tenant:Melb Port, zone:4",0,35
+"Dakin Mayers, Level 50, Zone  1, South Tower AHAC",,"level:50, tenant:Dakin Mayers, zone:1",429,35
+"Tellans, Level 50, Zone  2, South Tower AHAC",,"level:50, tenant:Tellans, zone:2",309.2,35
+"Leighton, Level 50, Zone  3, South Tower AHAC",,"level:50, tenant:Leighton, zone:3",233,35
+"Leighton, Level 50, Zone  4, South Tower AHAC",,"level:50, tenant:Leighton, zone:4",0,35
+"Russell Reynolds, Level 51, Zone  1, South Tower AHAC",,"level:51, tenant:Russell Reynolds, zone:1",412.3,35
+"Bilfinger, Level 51, Zone  2, South Tower AHAC",,"level:51, tenant:Bilfinger, zone:2",540.3,35
+"Level 51, Zone  3, South Tower AHAC",,"level:51, tenant:, zone:3",0,35
+"Level 51, Zone  4, South Tower AHAC",,"level:51, tenant:, zone:4",0,35
+"ELAW, Level 52, Zone  1, South Tower AHAC",,"level:52, tenant:ELAW, zone:1",338,35
+"Level 52, Zone  2, South Tower AHAC",,"level:52, tenant:, zone:2",0,35
+"Brin & CO, Level 52, Zone  3, South Tower AHAC",,"level:52, tenant:Brin & CO, zone:3",630,35
+"Brin & CO, Level 52, Zone  4, South Tower AHAC",,"level:52, tenant:Brin & CO, zone:4",0,35
+"BOOZ & Co, Level 53, Zone  1, South Tower AHAC",,"level:53, tenant:BOOZ & Co, zone:1",1000,35
+"Level 53, Zone  2, South Tower AHAC",,"level:53, tenant:, zone:2",0,35
+"Level 53, Zone  3, South Tower AHAC",,"level:53, tenant:, zone:3",0,35
+"Level 53, Zone  4, South Tower AHAC",,"level:53, tenant:, zone:4",0,35
+"GSA, Level 54, Zone  1, South Tower AHAC",,"level:54, tenant:GSA, zone:1",654.5,35
+"Ever Bright, Level 54, Zone  2, South Tower AHAC",,"level:54, tenant:Ever Bright, zone:2",268,35
+"Level 54, Zone  3, South Tower AHAC",,"level:54, tenant:, zone:3",0,35
+"Level 54, Zone  4, South Tower AHAC",,"level:54, tenant:, zone:4",0,35
+Base Building Lighting,,"level:PLAZA, tenant:, zone:",,
+Base Building Lighting,,"level:PLAZA, tenant:, zone:",,
+Base Building Lighting,,"level:PLAZA, tenant:, zone:",,

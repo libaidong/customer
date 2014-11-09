@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<meters_config version="0">
+  <meter device_id="1" name="Serial-1" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3001</bms_register_address>
+    </param_info>
+    <communication>
+      <address>1</address>
+    </communication>
+  </meter>
+  <meter device_id="2" name="TCP -1" type="electrical" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3003</bms_register_address>
+    </param_info>
+    <communication>
+      <address>1</address>
+      <ip_address>192.168.1.58</ip_address>
+      <port>901</port>
+    </communication>
+  </meter>
+  <meter device_id="3" name="SERIAL -2" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3005</bms_register_address>
+    </param_info>
+    <communication>
+      <address>2</address>
+    </communication>
+  </meter>
+  <meter device_id="4" name="TCP -2" type="electrical" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3007</bms_register_address>
+    </param_info>
+    <communication>
+      <address>1</address>
+      <ip_address>192.168.1.58</ip_address>
+      <port>902</port>
+    </communication>
+  </meter>
+  <meter device_id="5" name="SERIAL -3" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3009</bms_register_address>
+    </param_info>
+    <communication>
+      <address>3</address>
+    </communication>
+  </meter>
+  <meter device_id="6" name="TCP -3 " type="electrical" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3011</bms_register_address>
+    </param_info>
+    <communication>
+      <address>1</address>
+      <ip_address>192.168.1.58</ip_address>
+      <port>903</port>
+    </communication>
+  </meter>
+  <meter device_id="7" name="SERIAL -4" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3013</bms_register_address>
+    </param_info>
+    <communication>
+      <address>4</address>
+    </communication>
+  </meter>
+  <meter device_id="8" name="TCP -4" type="electrical" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3015</bms_register_address>
+    </param_info>
+    <communication>
+      <address>1</address>
+      <ip_address>192.168.1.58</ip_address>
+      <port>904</port>
+    </communication>
+  </meter>
+  <meter device_id="9" name="SERIAL - 5" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3017</bms_register_address>
+    </param_info>
+    <communication>
+      <address>5</address>
+    </communication>
+  </meter>
+  <meter device_id="10" name="TCP -5" type="electrical" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>10</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>100</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>float</output_data_type>
+      <endianess>little</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>1</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3019</bms_register_address>
+    </param_info>
+    <communication>
+      <address>1</address>
+      <ip_address>192.168.1.58</ip_address>
+      <port>905</port>
+    </communication>
+  </meter>
+</meters_config>

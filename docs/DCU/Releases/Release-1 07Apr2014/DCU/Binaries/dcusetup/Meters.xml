@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<meters_config version="1">
+  <meter device_id="12341" name="Meter 1" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>kWh</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>1001</register_address>
+      <data_type>signed short</data_type>
+      <endianess>big</endianess>
+      <offset_to_add>23</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3001</bms_register_address>
+    </param_info>
+    <communication>
+      <address>12</address>
+    </communication>
+  </meter>
+  <meter device_id="12342" name="Meter 2" type="electrical" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>kWh</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>1002</register_address>
+      <data_type>signed short</data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3002</bms_register_address>
+    </param_info>
+    <communication>
+      <address>12</address>
+      <ip_address>192.168.1.34</ip_address>
+      <port>4330</port>
+    </communication>
+  </meter>
+  <meter device_id="12343" name="Meter 3" type="gas" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>M3</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>1003</register_address>
+      <data_type>signed short</data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3003</bms_register_address>
+    </param_info>
+    <communication>
+      <address>12</address>
+      <ip_address>192.168.1.34</ip_address>
+      <port>4330</port>
+    </communication>
+  </meter>
+  <meter device_id="12344" name="Meter 4" type="electrical" media="RF_RS485" protocol="MB_RTU">
+    <param_info>
+      <unit>kWh</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>1004</register_address>
+      <data_type>signed short</data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3004</bms_register_address>
+    </param_info>
+    <communication>
+      <rf_device_id>7777</rf_device_id>
+      <address>12</address>
+    </communication>
+  </meter>
+  <meter device_id="12345" name="Meter 5" type="water" media="RF_PULSE" protocol="PULSE">
+    <param_info>
+      <unit>Ltr</unit>
+      <poll_interval>30</poll_interval>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3005</bms_register_address>
+    </param_info>
+    <communication>
+      <rf_device_id>8888</rf_device_id>
+      <channel>1</channel>
+    </communication>
+  </meter>
+  <meter device_id="12348" name="Meter 6" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>input register</register_type>
+      <register_address>2000</register_address>
+      <data_type>signed short</data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3001</bms_register_address>
+    </param_info>
+    <communication>
+      <address>1</address>
+    </communication>
+  </meter>
+  <meter device_id="12349" name="Meter 7" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>KWh</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>input register</register_type>
+      <register_address>2000</register_address>
+      <data_type>signed short</data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3001</bms_register_address>
+    </param_info>
+    <communication>
+      <address>1</address>
+    </communication>
+  </meter>
+</meters_config>

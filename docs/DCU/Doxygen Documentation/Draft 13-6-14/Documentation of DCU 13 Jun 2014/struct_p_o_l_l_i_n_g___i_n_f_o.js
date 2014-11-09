@@ -1,0 +1,27 @@
+var struct_p_o_l_l_i_n_g___i_n_f_o =
+[
+    [ "Adam", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a6dfef5f06f1a55f41340eb2b5a53bdaf", null ],
+    [ "BMSRegAddr", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a69a82346bf0a1be61b6bd5a9d84466f7", null ],
+    [ "Channel", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a1c3d9ae018f9c27622aff89e6d66413f", null ],
+    [ "CommAddress", "struct_p_o_l_l_i_n_g___i_n_f_o.html#adf3a4a041e89f127d8430b8187a5ddb8", null ],
+    [ "CommunicationProtocol", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a4cb2e4dd0168eae5d2801ffb7e270f5d", null ],
+    [ "Conn", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a60ac6754740558fc20b10f7dad40818e", null ],
+    [ "DataReqRetryCnt", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a223e99b898229d04b38a0751c0ee803b", null ],
+    [ "DeviceIndex", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a50f3d694427c001df184d91c4d787ff2", null ],
+    [ "DeviceState", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a09ee608635489635e15635ce5b380eb0", null ],
+    [ "Endianness", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a83b232053430e6a9bc38412de0beea18", null ],
+    [ "InputDataType", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a39079ea6ffece8d881f588f9de6c1609", null ],
+    [ "MBRtu", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a0c3766fce595a01c087dc9ceb5ea5915", null ],
+    [ "Media", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a33d1f5c6646941e69ac9ec837754e540", null ],
+    [ "OffsetToAdd", "struct_p_o_l_l_i_n_g___i_n_f_o.html#ac0f5724c32e88c1a9b0541008fa5a9fa", null ],
+    [ "OffsetToMultiply", "struct_p_o_l_l_i_n_g___i_n_f_o.html#ac928f785dd1f0f8336305da25bf451b1", null ],
+    [ "OutputDataType", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a6e4651991fb75dbd3ef58fe653e1ed81", null ],
+    [ "PollInterval", "struct_p_o_l_l_i_n_g___i_n_f_o.html#af8ef53e360d5561b1073d6acf9c32624", null ],
+    [ "PollTimer", "struct_p_o_l_l_i_n_g___i_n_f_o.html#ab24588f92e34efb0b4f14d4530ed93d7", null ],
+    [ "Protocol", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a0f54060a289345c47707324039134005", null ],
+    [ "RespPollTimer", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a6316550fa6b43282017a50a65f117403", null ],
+    [ "SmartMesh", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a38045bdb64af74fd8bf2f0d932f03da4", null ],
+    [ "StoragePoolRef", "struct_p_o_l_l_i_n_g___i_n_f_o.html#aea41a426a449786d4fa6b7708b8e0932", null ],
+    [ "Tag", "struct_p_o_l_l_i_n_g___i_n_f_o.html#a8441dcd20911bc105b3919d215a11f8a", null ],
+    [ "WriteListRecordIndex", "struct_p_o_l_l_i_n_g___i_n_f_o.html#aba9a9fad8a1b1be4b75c3ff494c07097", null ]
+];

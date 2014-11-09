@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<meters_config version="1">
+  <meter device_id="12341" name="Floor 1" type="electrical" media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+    <param_info>
+      <unit>kWh</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>1001</register_address>
+      <input_data_type>float</input_data_type>
+      <output_data_type>signed short</output_data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3001</bms_register_address>
+    </param_info>
+    <communication>
+      <address>12</address>
+    </communication>
+  </meter>
+  <meter device_id="12342" name="Floor 2" type="electrical" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>kWh</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>1002</register_address>
+      <input_data_type>unsigned char</input_data_type>
+      <output_data_type>unsigned char</output_data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3002</bms_register_address>
+    </param_info>
+    <communication>
+      <address>12</address>
+      <ip_address>192.168.1.34</ip_address>
+      <port>4330</port>
+    </communication>
+  </meter>
+  <meter device_id="12343" name="Floor 3" type="gas" media="ETH" protocol="MB_RTU">
+    <param_info>
+      <unit>M3</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>1003</register_address>
+      <input_data_type>unsigned char</input_data_type>
+      <output_data_type>unsigned char</output_data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3003</bms_register_address>
+    </param_info>
+    <communication>
+      <address>12</address>
+      <ip_address>192.168.1.34</ip_address>
+      <port>4330</port>
+    </communication>
+  </meter>
+  <meter device_id="12344" name="Floor 4" type="electrical" media="RF_RS485" protocol="MB_RTU">
+    <param_info>
+      <unit>kWh</unit>
+      <poll_interval>30</poll_interval>
+      <register_type>holding register</register_type>
+      <register_address>1004</register_address>
+      <input_data_type>unsigned long</input_data_type>
+      <output_data_type>signed long</output_data_type>
+      <endianess>big</endianess>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3004</bms_register_address>
+    </param_info>
+    <communication>
+      <rf_device_id>7777</rf_device_id>
+      <address>12</address>
+    </communication>
+  </meter>
+  <meter device_id="12345" name="Floor 5" type="water" media="RF_PULSE" protocol="PULSE">
+    <param_info>
+      <unit>Ltr</unit>
+      <poll_interval>30</poll_interval>
+      <offset_to_add>0</offset_to_add>
+      <offset_to_multiple>100</offset_to_multiple>
+      <methods>getConsumption</methods>
+      <bms_register_address>3005</bms_register_address>
+    </param_info>
+    <communication>
+      <rf_device_id>8888</rf_device_id>
+      <channel>1</channel>
+    </communication>
+  </meter>
+</meters_config>

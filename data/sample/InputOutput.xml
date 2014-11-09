@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<io_config version="1">
+  <io device_id="22342" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 1</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="MB_RTU" serial_tag="Serial port 2">
+      <address>18</address>
+      <register_type>input status</register_type>
+      <register_address>1000</register_address>
+    </communication>
+    <bms_register_address>4001</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22343" io_type="INPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>0</start_offset>
+    <stop_offset>0</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 1">
+      <address>1</address>
+      <channel>6</channel>
+    </communication>
+    <bms_register_address>6001</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22344" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>0</start_offset>
+    <stop_offset>0</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 1">
+      <address>1</address>
+      <channel>7</channel>
+    </communication>
+    <bms_register_address>6002</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22345" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 2">
+      <address>1</address>
+      <channel>2</channel>
+    </communication>
+    <bms_register_address>6003</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22346" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 2">
+      <address>1</address>
+      <channel>3</channel>
+    </communication>
+    <bms_register_address>6004</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22347" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 2">
+      <address>1</address>
+      <channel>4</channel>
+    </communication>
+    <bms_register_address>6005</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22348" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 2">
+      <address>1</address>
+      <channel>5</channel>
+    </communication>
+    <bms_register_address>6006</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22349" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 2">
+      <address>1</address>
+      <channel>6</channel>
+    </communication>
+    <bms_register_address>6007</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22350" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 2">
+      <address>1</address>
+      <channel>7</channel>
+    </communication>
+    <bms_register_address>6008</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22351" io_type="OUTPUT">
+    <type>Push button</type>
+    <name>Push button Level 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 2">
+      <address>2</address>
+      <channel>8</channel>
+    </communication>
+    <bms_register_address>4010</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22352" io_type="INPUT">
+    <type>Push button</type>
+    <name>Push button Level 3</name>
+    <logic_mode>simple</logic_mode>
+    <time_interval>100</time_interval>
+    <communication media="ETH" protocol="MB_RTU">
+      <address>12</address>
+      <register_type>input status</register_type>
+      <register_address>16</register_address>
+      <ip_address>192.168.1.159</ip_address>
+      <port>4312</port>
+    </communication>
+    <bms_register_address>4011</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22353" io_type="OUTPUT">
+    <type>Lighting relay output</type>
+    <name>Lobby 1 lighting</name>
+    <relay_operation>closed</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="MB_RTU" serial_tag="Serial port 2">
+      <address>13</address>
+      <register_type>input status</register_type>
+      <register_address>1000</register_address>
+    </communication>
+    <bms_register_address>4012</bms_register_address>
+    <methods>getState</methods>
+    <methods>setState</methods>
+  </io>
+  <io device_id="22354" io_type="OUTPUT">
+    <type>Lighting relay output</type>
+    <name>Lobby 2 lighting</name>
+    <relay_operation>closed</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="ADAM" serial_tag="Serial port 2">
+      <address>19</address>
+      <channel>1</channel>
+    </communication>
+    <bms_register_address>4013</bms_register_address>
+    <methods>getState</methods>
+    <methods>setState</methods>
+  </io>
+  <io device_id="22355" io_type="OUTPUT">
+    <type>Modbus output</type>
+    <name>Lobby 3 lighting</name>
+    <relay_operation>closed</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="ETH" protocol="MB_RTU">
+      <address>14</address>
+      <register_type>input status</register_type>
+      <register_address>1000</register_address>
+      <ip_address>192.168.1.36</ip_address>
+      <port>4330</port>
+    </communication>
+    <bms_register_address>4014</bms_register_address>
+    <methods>getState</methods>
+    <methods>setState</methods>
+  </io>
+  <io device_id="22356" io_type="INPUT">
+    <type>Push button</type>
+    <name>Push button Level 3</name>
+    <logic_mode>simple</logic_mode>
+    <time_interval>60</time_interval>
+    <communication media="RF" protocol="SMARTMESH" serial_tag="Serial port 4">
+      <rf_device_id>7777</rf_device_id>
+      <channel>1</channel>
+    </communication>
+    <bms_register_address>4015</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22357" io_type="OUTPUT">
+    <type>Lighting relay output</type>
+    <name>Lobby 3 lighting</name>
+    <relay_operation>closed</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RF" protocol="SMARTMESH" serial_tag="Serial port 4">
+      <rf_device_id>7777</rf_device_id>
+      <channel>2</channel>
+    </communication>
+    <bms_register_address>4016</bms_register_address>
+    <methods>getState</methods>
+    <methods>setState</methods>
+  </io>
+</io_config>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<system_config version="1.0">
+  <dcu_settings>
+    <description>Description of DCU</description>
+    <sms_reset_pin>1234</sms_reset_pin>
+    <secret_key>sitesync</secret_key>
+  </dcu_settings>
+  <server>
+    <scs_url>sitesync.io</scs_url>
+    <scs_port>80</scs_port>
+    <scs_conn_type>GPRS</scs_conn_type>
+  </server>
+  <gprs_settings>
+    <sim_apn>internet</sim_apn>
+    <sim_user_name>
+    </sim_user_name>
+    <sim_password>
+    </sim_password>
+    <primary_dns>8.8.8.8</primary_dns>
+    <secondary_dns>8.8.4.4</secondary_dns>
+  </gprs_settings>
+  <ethernet_settings>
+    <ip_address>192.168.1.150</ip_address>
+    <gateway>192.168.1.1</gateway>
+    <subnet_mask>255.255.0.0</subnet_mask>
+  </ethernet_settings>
+  <bms_settings>
+    <dcu_address_for_bms>23</dcu_address_for_bms>
+    <media>ETH</media>
+    <protocol>MB_TCP_RTU</protocol>
+    <serial_tag>Serial port 1</serial_tag>
+  </bms_settings>
+  <serial_settings>
+    <serial>
+      <enable>true</enable>
+      <tag>Serial port 1</tag>
+      <port>/dev/ttyS1</port>
+      <baud>9600</baud>
+      <parity>none</parity>
+      <data_bits>8</data_bits>
+      <stop_bits>1</stop_bits>
+    </serial>
+    <serial>
+      <enable>true</enable>
+      <tag>Serial port 2</tag>
+      <port>/dev/ttyS2</port>
+      <baud>9600</baud>
+      <parity>none</parity>
+      <data_bits>8</data_bits>
+      <stop_bits>1</stop_bits>
+    </serial>
+    <serial>
+      <enable>true</enable>
+      <tag>Serial port 3</tag>
+      <port>/dev/ttyS3</port>
+      <baud>9600</baud>
+      <parity>none</parity>
+      <data_bits>8</data_bits>
+      <stop_bits>1</stop_bits>
+    </serial>
+    <serial>
+      <enable>true</enable>
+      <tag>Serial port 4</tag>
+      <port>/dev/ttyS4</port>
+      <baud>9600</baud>
+      <parity>none</parity>
+      <data_bits>8</data_bits>
+      <stop_bits>1</stop_bits>
+    </serial>
+  </serial_settings>
+</system_config>

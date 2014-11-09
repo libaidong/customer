@@ -1,0 +1,25 @@
+var system__cfg_8c =
+[
+    [ "XML_MAX_BMS_SETTINGS", "system__cfg_8c.html#a125ee924e279dbcdbf8ab1bc3c207df8", null ],
+    [ "XML_MAX_DCU_SETTINGS", "system__cfg_8c.html#ae9d712e70c527a2640ebcdb9a6f3ae59", null ],
+    [ "XML_MAX_ETH_SETTINGS", "system__cfg_8c.html#a01a7ef80c47d9f7b0758eb7256fbe489", null ],
+    [ "XML_MAX_GPRS_SETTINGS", "system__cfg_8c.html#a92017363a944274db59f67388bdd8653", null ],
+    [ "XML_MAX_SERIAL_ARRAY", "system__cfg_8c.html#a0a7aa98bd98e770ed28ffa0cba496d8b", null ],
+    [ "XML_MAX_SERIAL_SETTINGS", "system__cfg_8c.html#ac04de9a083c3fd62767d0543f44fd1e1", null ],
+    [ "XML_MAX_SERVER_SETTINGS", "system__cfg_8c.html#a33494bd7eea0574ea7f616113289daf2", null ],
+    [ "XML_MAX_SYSTEM_CFG_SUB_TAGS", "system__cfg_8c.html#ae90723e4cefb8adf59fcc51d8a4f6356", null ],
+    [ "XML_MAX_SYSTEM_CONFIG_FILE_TAG", "system__cfg_8c.html#a66a1d6bf7b2e27b95578806eb188a779", null ],
+    [ "PrintSystemCfg", "system__cfg_8c.html#a637c7bb9b2797d20274cdd3c3c027cfc", null ],
+    [ "ReadSystemConfig", "system__cfg_8c.html#acf3e710f7a4b435af073d0eac0a1d069", null ],
+    [ "BMSSettings", "system__cfg_8c.html#a3a90d44f0b0c516ae12ee021897e327f", null ],
+    [ "DCUSettings", "system__cfg_8c.html#ac1f657d31158bb9e9395c2fb55bb152c", null ],
+    [ "EthernetSettings", "system__cfg_8c.html#a4ca87a22c752d5e62620f779124d1d42", null ],
+    [ "GPRSSettings", "system__cfg_8c.html#a61030e00ed4188e51c8134d0a80273e4", null ],
+    [ "MACAddress", "system__cfg_8c.html#a6a25cad96e7011e731e8ef24d9c93e77", null ],
+    [ "SerialArrayTag", "system__cfg_8c.html#a3df24f85b874daa72711c1ec8b144ca2", null ],
+    [ "SerialSettings", "system__cfg_8c.html#ad0ef944ea377e1861235681fc5838ab6", null ],
+    [ "ServerSettings", "system__cfg_8c.html#a2434ae966dd778c489c8d1b557bfcd73", null ],
+    [ "SystemCfgSettings", "system__cfg_8c.html#a632ab023ca9761f4b850776c6fe6e257", null ],
+    [ "SystemConfig", "system__cfg_8c.html#a612f622707c530a7edd766f7efedbca4", null ],
+    [ "SystemConfigFileTag", "system__cfg_8c.html#a04c77f5057347db821904efb834b993d", null ]
+];

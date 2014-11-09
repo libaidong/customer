@@ -1,0 +1,27 @@
+{
+	"name": "hashbang/epoctools",
+	"description": "Library to provide various epoc handling functions",
+	"keywords": ["time"],
+	"homepage": "https://github.com/hash-bang/EpocTools",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Matt Carter",
+			"email": "m@ttcarter.com",
+			"homepage": "https://github.com/hash-bang"
+		}
+	],
+	"require": {
+		"php": ">=5.0.0"
+	},
+	"require-dev": {
+	},
+	"suggest": {
+	},
+	"config": {
+	},
+	"autoload": {
+		"files": ["epoctools.php"]
+	}
+}

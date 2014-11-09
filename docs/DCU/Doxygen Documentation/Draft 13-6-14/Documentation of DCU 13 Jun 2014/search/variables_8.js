@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['infidx',['InfIdx',['../struct_c_o_n_n_e_c_t_i_o_n.html#ac4027e2d500bb9da4873139236f68051',1,'CONNECTION']]],
+  ['inforefernce',['InfoRefernce',['../struct_b_m_s___d_a_t_a___i_n_f_o.html#a79431f62e0876f2b8a6a802d1274739f',1,'BMS_DATA_INFO']]],
+  ['infotype',['InfoType',['../struct_b_m_s___d_a_t_a___i_n_f_o.html#aac9fc9bfdd9f185327c014120be87af5',1,'BMS_DATA_INFO']]],
+  ['inputdatatype',['InputDataType',['../struct_p_o_l_l_i_n_g___i_n_f_o.html#a39079ea6ffece8d881f588f9de6c1609',1,'POLLING_INFO']]],
+  ['interfaceindex',['InterfaceIndex',['../struct_d_e_v_i_c_e___r_e_f.html#a30d62a9172c79c195f1205712b2718b5',1,'DEVICE_REF']]],
+  ['interfacename',['InterfaceName',['../struct_e_t_h___i_n_t_e_r_f_a_c_e.html#a9dc24a5c668e6ebecda9d90473568c0a',1,'ETH_INTERFACE']]],
+  ['interval',['Interval',['../struct_s_c_h_e_d_u_l_e.html#a38d3129af2a08977d7edf403a5c664b6',1,'SCHEDULE']]],
+  ['io',['IO',['../struct_d_e_v_i_c_e___i_n_f_o.html#a6f1a5bfc2bb48172e15cbed381a674f1',1,'DEVICE_INFO']]],
+  ['ioarray',['IOArray',['../io__cfg_8c.html#a38c99570584e8ff2f93a7d366b82c510',1,'io_cfg.c']]],
+  ['ioattributes',['IOAttributes',['../io__cfg_8c.html#a59530e3a41e647922cb9d88cf70f520a',1,'io_cfg.c']]],
+  ['iocommunicationinfo',['IOCommunicationInfo',['../io__cfg_8c.html#aaf107c7019c33ac8caf925d57f643a4f',1,'io_cfg.c']]],
+  ['ioconfigfiletag',['IOConfigFileTag',['../io__cfg_8c.html#a7b3ea5313cf88a4c92c98d5bea8edb86',1,'io_cfg.c']]],
+  ['iocount',['IOCount',['../io__cfg_8h.html#a52b035bf9492cc281781aa52ab813094',1,'IOCount():&#160;io_cfg.c'],['../io__cfg_8c.html#a52b035bf9492cc281781aa52ab813094',1,'IOCount():&#160;io_cfg.c']]],
+  ['ioparams',['IOParams',['../io__cfg_8c.html#a83aaa612911b53394cc822cdf362f71a',1,'io_cfg.c']]],
+  ['ip',['IP',['../struct_e_t_h___i_n_t_e_r_f_a_c_e.html#a1907a0a444a21645a5681f305c53162f',1,'ETH_INTERFACE']]],
+  ['ipaddr',['IPAddr',['../struct_m_b___r_t_u.html#ae2d19681df2a1a5107aa524df396ce7e',1,'MB_RTU']]],
+  ['issecured',['IsSecured',['../struct_c_o_m_m_u_n_i_c_a_t_i_o_n___i_n_f_o.html#a30c0ac5a523a9d584c8eef66061837a1',1,'COMMUNICATION_INFO']]]
+];

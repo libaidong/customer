@@ -1,0 +1,65 @@
+Long term TODO list
+	! General
+		- BUGFIX: Select2 with Angular doesnt select items correctly
+		- Check all DB indexes
+		- Throbbers for AJAX loads [MC Suggestion]
+		- "You dont have any starred items" messages for devices + meters on dashboard [MC Suggestion]
+		- Favicon is squashed [Beta feedback]
+		- Pagination needed in all index interfaces to prevent extremely long load time (especially devices index)
+		- Dedicated server setup + install SSL [6.1.2]
+	- API
+		x /api/heartbeat
+		x /api/getDevicesReply
+			- incomming device.name -> server device.description
+		- /api/sendToDeviceReply
+		- /api/setStateReply
+		- /api/setTemperatureReply
+		- /api/setConsumptionReply
+		x /api/ical
+			- Updates to spec
+	? Database management - Not sure if this is still required
+		- Backup [6.3.1]
+		- Restore [6.3.2]
+		- CSV export [6.3.2]
+		- Backup schedules [6.3.4]
+	- DCUs
+		- Implement dcu.{commStatus,lastSeen} from heartbeat
+		- BUGFIX: Edit page is using Waveform needs to switch to new style
+	- Devices
+		- Add device tagging functionality
+		- Set start and end time offsets - already present but needs testing [3.1.6]
+	- Events [3.1.*]
+		- After setting 'starts' end should populate one hour later
+		- Edit events - Test saving
+		- Create events
+		- Delete button needs to do something
+		? Share event info via URL - not sure if this is still required [3.1.4]
+		- Event timer to increment in 15 minute intervals [3.1.5]
+		- Activity feed for user not restricted to only the users tags
+		- STUB: models/event#GetHash()
+		- Public holiday functionality [Beta feedback]
+	- Logs
+		- Hide complex logs by default (e.g. heartbeat responses)
+		? Pulling logs from device - no idea how this works [5.1.4]
+	- Locations
+		- Entire CRUD is missing [2.1.2]
+		- Base hours configurable per location rather than locked to 9am - 5pm (as now on the calendar display) [Beta feedback]
+		- Logo upload
+	- Metering graphs (frontpage + metering popup)
+		- Make devices.usage_target actually do something
+		- Graphs should use real meter data
+		- Make filtering dropdowns actually change the data presented
+	- Reports
+		- Generate report using devices.aream3 + usage over last month [5.2.1]
+		- Restrict to active company if role=user
+		- Reports only available to managers [5.2.4]
+		- Email distribution for reports [5.2.5]
+	- Users
+		- CRUD [2.1.3 / 6.4.2]
+		- Tag management [6.4.5]
+		? Bulk import of user info - suggestion from Jay [Beta feedback]
+
+	- Query
+		- Creation and management of email lists [6.2.1]
+		- User notification per event [6.2.2]
+		- All above marked as '?'

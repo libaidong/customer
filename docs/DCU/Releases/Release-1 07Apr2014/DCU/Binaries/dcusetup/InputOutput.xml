@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<io_config version="1">
+  <io device_id="22001" io_type="INPUT">
+    <type>Modbus output</type>
+    <name>Input Device 1</name>
+    <poll_interval>30</poll_interval>
+    <logic_mode>simple</logic_mode>
+    <time_interval>60</time_interval>
+    <communication media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+      <address>1</address>
+      <register_type>input status</register_type>
+      <register_address>2000</register_address>
+    </communication>
+    <bms_register_address>4001</bms_register_address>
+    <methods>getState</methods>
+  </io>
+  <io device_id="22002" io_type="INPUT">
+    <type>Modbus output</type>
+    <name>Input Device 2</name>
+    <poll_interval>30</poll_interval>
+    <logic_mode>simple</logic_mode>
+    <time_interval>60</time_interval>
+    <communication media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+      <address>1</address>
+      <register_type>input status</register_type>
+      <register_address>2000</register_address>
+    </communication>
+    <bms_register_address>4001</bms_register_address>
+  </io>
+  <io device_id="22003" io_type="OUTPUT">
+    <type>Modbus output</type>
+    <name>Output Device 1</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+      <address>1</address>
+      <register_type>input status</register_type>
+      <register_address>2000</register_address>
+    </communication>
+    <bms_register_address>4001</bms_register_address>
+    <methods>setState</methods>
+  </io>
+  <io device_id="22004" io_type="OUTPUT">
+    <type>Modbus output</type>
+    <name>Output Device 2</name>
+    <relay_operation>open</relay_operation>
+    <start_offset>5</start_offset>
+    <stop_offset>-5</stop_offset>
+    <control_mode>auto</control_mode>
+    <communication media="RS485" protocol="MB_RTU" serial_tag="Serial port 1">
+      <address>1</address>
+      <register_type>input status</register_type>
+      <register_address>2000</register_address>
+    </communication>
+    <bms_register_address>4001</bms_register_address>
+    <methods>getState</methods>
+  </io>
+</io_config>

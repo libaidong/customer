@@ -1,0 +1,483 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Migration_Initial_Schema extends CI_Migration {
+	public function up() {
+
+		/**
+		 * Actions schema
+		 */
+		$this->dbforge->add_field(array(
+			'deviceid' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'locationid' => array(
+				'type' => 'int'
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			),
+			'type' => array(
+				'type' => 'ENUM',
+				'constraint' => "'unknown', 'ac', 'light', 'hotwater'",
+				'default' => 'unknown'
+			),
+			'spec' => array(
+				'type' => 'TEXT'
+			),
+			'created' => array(
+				'type' => 'INT'
+			),
+			'status' => array(
+				'type' => 'ENUM',
+				'constraint' => "'active', 'deleted'",
+				'default' => 'active'
+			)
+		));
+
+		$this->dbforge->add_key('deviceid', TRUE);
+
+		$this->dbforge->create_table('devices');
+
+		$this->db->query('ALTER TABLE `devices` ADD INDEX `devices_locationid` (`locationid`)');
+		$this->db->query('ALTER TABLE `devices` ADD INDEX `devices_type` (`type`)');
+		$this->db->query('ALTER TABLE `devices` ADD INDEX `devices_status` (`status`)');
+
+		$this->load->model("devices");
+		$this->device->initial_schema_action_create();
+
+		/**
+		 * Available Params Schema
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'functionid' => array(
+				'type' => 'INT'
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			),
+			'input_type' => array(
+				'type' => 'ENUM',
+				'constraint' => "'int', 'string', 'array', 'object', 'double'"
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+
+		$this->dbforge->create_table('available_params', TRUE);
+
+		/**
+		 * Customers Schema
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+		$this->dbforge->create_table('customers', TRUE);
+
+		/**
+		 * Deviuce Types schema
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+		$this->dbforge->create_table('device_types', TRUE);
+
+		/**
+		 * Devices Schema
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			),
+			'locationid' => array(
+				'type' => 'INT'
+			),
+			'notes' => array(
+				'type' => 'TEXT'
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+		$this->dbforge->create_table('devices', TRUE);
+
+		/**
+		 * Devices assigned to operations Schema
+		 */
+		$this->dbforge->add_field(array(
+			'operationid' => array(
+				'type' => 'INT'
+			),
+			'deviceid' => array(
+				'type' => 'INT'
+			)
+		));
+
+		$this->dbforge->create_table('devices_assigned_to_operations', TRUE);
+
+
+		/**
+		 * Devices have functions Schema
+		 */
+		$this->dbforge->add_field(array(
+			'deviceid' => array(
+				'type' => 'INT'
+			),
+			'functionid' => array(
+				'type' => 'INT'
+			)
+		));
+
+		$this->dbforge->add_key('deviceid');
+		$this->dbforge->add_key('functionid');
+
+		$this->dbforge->create_table('devices_have_functions', TRUE);
+
+		/**
+		 * Event Operations Schema
+		 */
+		$this->dbforge->add_field(array(
+			'operationid' => array(
+				'type' => 'INT'
+			),
+			'scheduled_event_id' => array(
+				'type' => 'INT'
+			)
+		));
+
+		$this->dbforge->add_key('operationid', TRUE);
+		$this->dbforge->add_key('scheduled_event_id', TRUE);
+
+		$this->dbforge->create_table('event_operations', TRUE);
+
+		/**
+		 * Function Schema
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+		$this->dbforge->create_table('functions', TRUE);
+
+		/**
+		 * locations
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+		$this->dbforge->create_table('locations', TRUE);
+
+		/**
+		 * Operations Schema
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'INT',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			),
+			'for_device_type' => array(
+				'type' => 'INT'
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+		$this->dbforge->create_table('operations', TRUE);
+
+		/**
+		 * operation Setting Params Schema
+		 */
+		$this->dbforge->add_field(array(
+			'operationid' => array(
+				'type' => 'INT'
+			),
+			'paramid' => array(
+				'type' => 'INT'
+			),
+			'value' => array(
+				'type' => 'TEXT'
+			)
+		));
+
+		$this->dbforge->create_table('operation_setting_params', TRUE);
+
+		/**
+		 * Roles Schema
+		 */
+		$this->dbforge->add_field(array(
+			'roleid' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			),
+			'created' => array(
+				'type' => 'INT'
+			),
+			'modified' => array(
+				'type' => 'INT'
+			)
+		));
+
+		$this->dbforge->add_key('roleid', TRUE);
+		$this->dbforge->create_table('roles', TRUE);
+
+		$this->load->model('role');
+		$this->role->migration_create();
+
+		/**
+		 * Scheduled Events Schema
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'scheduleid' => array(
+				'type' => 'INT',
+				'null' => FALSE
+			),
+			'start' => array(
+				'type' => 'INT',
+				'null' => FALSE
+			),
+			'end' => array(
+				'type' => 'INT',
+				'null' => FALSE
+			),
+			'repeat_event' => array(
+				'type' => 'ENUM',
+				'constraint' => "'none', 'daily', 'weekly'",
+				'default' => 'none'
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+		$this->dbforge->create_table('scheduled_events', TRUE);
+
+		/**
+		 * Schedules Schema
+		 */
+		$this->dbforge->add_field(array(
+			'id' => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			'creatorid' => array(
+				'type' => 'int',
+				'null' => FALSE
+			),
+			'modified' => array(
+				'type' => 'INT'
+			),
+			'active' => array(
+				'type' => 'ENUM',
+				'constraint' => "'true', 'false'",
+				'default' => 'true'
+			),
+			'name' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			)
+		));
+
+		$this->dbforge->add_key('id', TRUE);
+		$this->dbforge->create_table('schedules', TRUE);
+
+		/**
+		 * User Schema
+		 */
+		$this->dbforge->add_field(array(
+			"userid" => array(
+				'type' => 'int',
+				'constraint' => 11,
+				'unsigned' => TRUE,
+				'auto_increment' => TRUE
+			),
+			"username" => array(
+				'type' => 'VARCHAR',
+				'constraint' => '50'
+			),
+			"fname" => array(
+				'type' => 'VARCHAR',
+				'constraint' => '50'
+			),
+			"lname" => array(
+				'type' => 'VARCHAR',
+				'constraint' => '50'
+			),
+			"passhash" => array(
+				'type' => 'CHAR',
+				'constraint' => '40'
+			),
+			"passhash2" => array(
+				'type' => 'CHAR',
+				'constraint' => '40',
+				'null' => TRUE
+			),
+			"email" => array(
+				'type' => 'VARCHAR',
+				'constraint' => '100'
+			),
+			"status" => array(
+				'type' => 'ENUM',
+				'constraint' => '"active", "deleted"',
+				'default' => 'active'
+			),
+			"role" => array(
+				'type' => 'ENUM',
+				'constraint' => '"user", "admin", "root"',
+				'default' => 'user'
+			),
+			"companyid" => array(
+				'type' => 'INT',
+				'null' => TRUE
+			),
+			"created" => array(
+				'type' => 'INT',
+				'null' => TRUE,
+			),
+			"edited" => array(
+				'type' => 'INT',
+				'null' => TRUE
+			),
+			"lastlogin" => array(
+				'type' => 'INT',
+				'null' => TRUE
+			),
+			"passhash2_created" => array(
+				'type' => 'INT',
+				'null' => TRUE
+			)
+		));
+
+		$this->dbforge->add_key('userid', TRUE);
+		$this->dbforge->create_table('users', TRUE);
+
+		$this->load->model('User');
+		$this->User->migration_create();
+
+		/**
+		 * Permissions Schema
+		 */
+		$this->dbforge->add_field(array(
+			'actionid' => array(
+				'type' => 'INT'
+			),
+			'roleid' => array(
+				'type' => 'INT'
+			),
+			'can' => array(
+				'type' => 'ENUM',
+				'constraint' => "'true', 'false'",
+				'default' => 'true'
+			),
+			'created' => array(
+				'type' => 'INT'
+			),
+			'modified' => array(
+				'type' => 'INT'
+			)
+		));
+
+		$this->dbforge->add_key('actionid', TRUE);
+		$this->dbforge->add_key('roleid', TRUE);
+
+		$this->dbforge->create_table('permissions', TRUE);
+
+		$this->load->model('permission');
+		$this->permission->migration_create();
+	}
+
+	public function down() {
+		$this->dbforge->drop_table('actions');
+		$this->dbforge->drop_table('available_params');
+		$this->dbforge->drop_table('customers');
+		$this->dbforge->drop_table('device_types');
+		$this->dbforge->drop_table('devices');
+		$this->dbforge->drop_table('devices_assigned_to_operations');
+		$this->dbforge->drop_table('devices_have_functions');
+		$this->dbforge->drop_table('event_operations');
+		$this->dbforge->drop_table('functions');
+		$this->dbforge->drop_table('locations');
+		$this->dbforge->drop_table('operations');
+		$this->dbforge->drop_table('operation_setting_params');
+		$this->dbforge->drop_table('roles');
+		$this->dbforge->drop_table('scheduled_events');
+		$this->dbforge->drop_table('schedules');
+		$this->dbforge->drop_table('users');
+		$this->dbforge->drop_table('permissions');
+	}
+}

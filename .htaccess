@@ -1,0 +1,16 @@
+# rewrite everything so that /index.php/ is not needed
+# Apache mod-rewrite script shamelessly stolen from Dr Carter (git: Hashbang)
+
+RewriteEngine on
+RewriteBase /
+
+#prevent the files from being reqritten
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.*)$                - [L]
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*)$                - [L]
+
+#rewrite urls to include codeigniter's index.php if it's not already included
+RewriteCond $1 !^(index\.php)
+RewriteRule ^(.*)$ /index.php/$1 [L]
